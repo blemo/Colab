@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Colab.exe" version="1.0.0.0" publicKeyToken="3458f0a39b37e072" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Colab" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Colab.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Colab.exe" size="176640">
+      <assemblyIdentity name="Colab" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IhBLlo5h/YMvd1VQlMkyNpMamHNEf9mwMuRhMan1xbQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Colab.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SAM\samro_000" issuerKeyHash="e717d5b1a161f41837da3216cfd652aaf3f1679a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9CqxfhnyzhgsZKwr6KPwCoihkS2KCUkzXjnIS1dFEGs=</DigestValue></Reference></SignedInfo><SignatureValue>atEFiJUYRKjShoChzaR5gDXBZ6zTXNIwNc4ps4rnksik8UeWPu0iX23ER2J3B676j2GSueAnOxb2Lj6AeEeLOfLvsZb1sKJgop9FN/gOagoxWS23zhej7zq0AXLObe7Porvj0St/sDHJB6DGpiu+Q4ZNGE/WRwkPXzMWYpSVTKk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tLnFzTj3TquNiKWPhK0xu/cF7eSdzsFTA2b2jSa8ekGEUWs1PLzfaf/dcDqzT4xnpVxc2R/sd7+iGIOV2Ldl4w1ynCal4C+B39/z3/RakPHTnAV2L4gX55sonG4yp0JmvaDMLwidRpakWCx9jiyxMjxKJRWuNKJzqQaouCn/pjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6b1045574bc8395e3349098a2d91a1880af0a3e82bac642c18cef2197eb12af4" Description="" Url=""><as:assemblyIdentity name="Colab.exe" version="1.0.0.0" publicKeyToken="3458f0a39b37e072" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SAM\samro_000</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w7TODgwASXKH1ej+gZQboLlSlXz2jkupN/qaHRb0tRA=</DigestValue></Reference></SignedInfo><SignatureValue>PvxuXl50I6ibDs0rWZo8rPgwVRc4TYD7u+OxKeLyLG3+uhG1RUB3eSbPPCr3Cx52wbUaQ3aVt2maOx1olNf2rPEiZD+tESDc17sxXf92Fsv8FFhKfQmwP6BD0BRWJNOtexQYwLMWdBhBONpQDUXKb4FCrJhrCIRTHAuFw5wek8E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tLnFzTj3TquNiKWPhK0xu/cF7eSdzsFTA2b2jSa8ekGEUWs1PLzfaf/dcDqzT4xnpVxc2R/sd7+iGIOV2Ldl4w1ynCal4C+B39/z3/RakPHTnAV2L4gX55sonG4yp0JmvaDMLwidRpakWCx9jiyxMjxKJRWuNKJzqQaouCn/pjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQGpp7JgYOS6ZIlmJ/EKTsYTANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUwBBAE0AXABzAGEAbQByAG8AXwAwADAAMDAeFw0xNDEwMjExMDMzMjBaFw0xNTEwMjExNjMzMjBaMCUxIzAhBgNVBAMeGgBTAEEATQBcAHMAYQBtAHIAbwBfADAAMAAwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0ucXNOPdOq42IpY+ErTG79wXt5J3OwVMDZvaNJrx6QYRRazU8vN9p/91wOrNPjGelXFzZH+x3v6IYg5XYt2XjDXKcJqXgL4Hf3/Pf9FqQ8dOcBXYviBfnmyicbjKnQma9oMwvCJ1GlqRYLH2OLLEyPEolFa40onOpBqi4Kf+mNQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFb0BfIObDLTwgFeZoL8ErNdTDbT4L1BZqEgVvWzIj2FQxVofEvn1Ntm6DzumVTSLP+x00dbMg7WRv/dU0icTSDuEDhaChWRC4XlBJagrqtJP/OQpKq/zVdJDY1VI4zgJvX8+hgEMllpTfIUwmZjS+LhLKoSg/WchRKkRBubqmkt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
